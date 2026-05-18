@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 xnyzer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on redistributed binaries:
+The release ZIP archive distributed via the GitHub Releases page of this
+repository contains compiled binaries built from third-party sources. Those
+binaries are not covered by this license but by their own respective licenses:
+
+- ggml-hip.dll — built from https://github.com/ollama/ollama (MIT License)
+- rocblas.dll, rocblas/library/* — from https://github.com/ROCm/rocBLAS (MIT)
+- libhipblas.dll — from https://github.com/ROCm/hipBLAS (MIT)
+- libhipblaslt.dll — from https://github.com/ROCm/hipBLASLt (MIT)
+
+amdhip64_7.dll is part of AMD's proprietary HIP runtime and is NOT
+redistributed through this repository. It is obtained from the user's local
+HIP SDK 7.1 installation at deploy time.

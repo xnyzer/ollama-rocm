@@ -1,0 +1,42 @@
+# Ollama-Quellcode-Klon (wird via git clone separat geholt)
+/ollama/
+
+# Build-Artefakte
+/build/
+/dist/
+/out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiler-Output
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+*.ilk
+
+# IDE / Editor
+/.vscode/
+/.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+
+# Per-machine Claude Code settings (the rest of .claude/ is tracked)
+/.claude/settings.local.json

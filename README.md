@@ -579,6 +579,9 @@ This project is built using Claude Code (Anthropic) — see
 [AI-DISCLOSURE.md](AI-DISCLOSURE.md) for details on the human/AI
 collaboration model.
 
+Maintainer notes (how to build a new version, cut a release, run sanity
+checks) live in [MAINTAINING.md](MAINTAINING.md).
+
 ### What is in the release ZIP
 
 The redistributed ZIP **only contains MIT-licensed files**. Everything in
